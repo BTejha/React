@@ -1,0 +1,42 @@
+.container {
+    margin: 0 auto;
+    width: 720px;
+}
+
+.enter-section {
+    text-align: center;
+}
+
+input[type=text] {
+    width: 50%;
+}
+
+.span-block {
+    display: inline-block;
+    position: relative;
+    border: 1px solid grey;
+    text-align: center;
+    font-size: 1.8em;
+    width: 2em;
+    margin: 5px;
+}
+
+.child-block {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#pascal {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.span-block:nth-child(odd) {
+    background: #F96167;
+    color: #FCE77D;
+}
+
+.span-block:nth-child(even) {
+    background: #FCE77D;
+    color: #F96167;
+}
