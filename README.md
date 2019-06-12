@@ -1,1 +1,2 @@
-# PascalsTriangle
+# React
+React Project
